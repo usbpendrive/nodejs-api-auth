@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-api-auth",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/usbpendrive/nodejs-api-auth",
+  "author": "Fernando <ferry.fernando@gmail.com> (https://github.com/usbpendrive)",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.7",
+    "mongoose-unique-validator": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
