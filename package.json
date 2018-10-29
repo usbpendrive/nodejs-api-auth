@@ -1,10 +1,13 @@
 {
   "name": "nodejs-api-auth",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "https://github.com/usbpendrive/nodejs-api-auth",
   "author": "Fernando <ferry.fernando@gmail.com> (https://github.com/usbpendrive)",
   "license": "MIT",
+  "scripts": {
+    "start": "cd server && nodemon server.js"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
